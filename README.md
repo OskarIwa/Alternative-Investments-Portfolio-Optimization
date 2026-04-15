@@ -53,7 +53,7 @@ Wykres przedstawia ewolucję wag w portfelu w zależności od założonego celu 
 
 ## 👥 Autorzy
 | Imię i nazwisko |
-| :--- | :---: |
+| :--- |
 | Oskar Iwaszkiewicz |
 | Kajetan Bernat |
 
