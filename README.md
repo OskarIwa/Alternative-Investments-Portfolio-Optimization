@@ -15,7 +15,7 @@ W skład portfela weszły cztery zróżnicowane klasy aktywów:
 Obliczenia zostały wykonane przy użyciu zestawu narzędzi analitycznych:
 * **R, Microsoft Excel, Gretl:** Narzędzia wykorzystane do stworzenia tabel, wykresów i optymalizacji portfela.
 
-Do modelowania przyjęto logarytmiczne stopy zwrotu z kapitalizacją ciągłą oraz stopę wolną od ryzyka na poziomie **R_f = 0,2192%**.
+Do modelowania przyjęto logarytmiczne stopy zwrotu z kapitalizacją ciągłą oraz stopę wolną od ryzyka na poziomie **R_f = 0,2192%** (w ujęciu miesięcznym).
 
 ## 📈 Kluczowe Wyniki
 
@@ -27,7 +27,7 @@ Poniższy wykres pudełkowy prezentuje rozkład stóp zwrotu dla poszczególnych
 ### Zbiór Możliwości Inwestycyjnych (ZMI)
 Analiza wykazała, że dopuszczenie **krótkiej sprzedaży** fundamentalnie rozszerza obszar dostępnych kombinacji ryzyka i zysku, pozwalając na osiągnięcie wyższej efektywności, dając tym samym szersze możliwości niż model w wariancie klasycznym (tylko długie pozycje).
 
-| Model Long-Only | Model z Krótką Sprzedażą |
+| Model bez krótkiej sprzedaży | Model z Krótką Sprzedażą |
 | :---: | :---: |
 | <img width="1204" height="842" alt="ZMI only long" src="https://github.com/user-attachments/assets/da9c308d-939e-4cee-99ac-e83a0bff15cf" /> | <img width="1204" height="842" alt="ZMI ss" src="https://github.com/user-attachments/assets/29e0b2bf-3a58-43ee-8d8b-28f16910708b" /> |
 
@@ -50,11 +50,3 @@ Wykres przedstawia ewolucję wag w portfelu w zależności od założonego celu 
 - Portfel maksymalnej efektywności (Sharpe 24,34%) istotnie przewyższa każdy portfel jednoelementowy, potwierdzając przewagę dywersyfikacji.
 - Dopuszczenie krótkiej sprzedaży znacząco rozszerza przestrzeń możliwych portfeli, jednak wymaga aktywnego zarządzania ryzykiem.
 - Analiza dynamiczna wykazała, że skład portfeli zmienia się z roku na rok — inwestor powinien regularnie dostosowywać alokację aktywów.
-
-## 👥 Autorzy
-| Imię i nazwisko |
-| :--- |
-| Oskar Iwaszkiewicz |
-| Kajetan Bernat |
-
-*Politechnika Gdańska · Wydział Zarządzania i Ekonomii · Gdańsk 2025*
